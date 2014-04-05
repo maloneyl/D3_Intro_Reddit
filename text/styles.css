@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box; /* will make 100px width with 10px padding to come with the intuitive 80px content */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+
+li {
+  position: absolute; /* for animation */
+  top: 0em;
+  -webkit-transition: all 0.5s;
+}
